@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url(../images/macbook-air-all-faded-and-stuff.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #ececec;
+
+  padding: 100px 50px 25px;
+  height: 100%;
+  line-height: 24px;
+  min-height: 100%;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 48px;
+  text-shadow: 0px -1px 0px #333;
+}
+
+h1>small {
+  font-size: 16px;
+  font-style: italic;
+}
+
+article {
+  background-color: rgba(35, 35, 35, 0.7);
+  padding: 12px 18px;
+
+  margin-bottom: 24px;
+}
+
+article>p:first-child {
+  margin-top: 0px;
+}
+
+article>p:last-child {
+  margin-bottom: 0px;
+}
+
+article>p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+#mc_embed_signup {
+  margin: 0px auto;
+  width: 100%;
+}
+
+.mc-field-group {
+  box-shadow: 0px 0px 4px #666;
+  display: table;
+  width: 100%;
+}
+
+#mc_embed_signup input {
+  display: table-cell;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0px;
+  padding: 12px 18px;
+}
+
+#mc_embed_signup input[type="email"] {
+  border: 2px solid rgb(208, 128, 66);
+  border-right: none;
+  width: calc(100% - 120px);
+}
+
+#mc_embed_signup input[type="submit"] {
+  background-color: rgb(208, 128, 66);
+  border: 2px solid rgb(208, 128, 66);
+  border-left: none;
+  color: white;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  padding-top: 11px;
+  width: 120px;
+}
+#mc_embed_signup input[type="submit"]:hover {
+  cursor: pointer;
+}
