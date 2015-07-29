@@ -17,11 +17,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #ececec;
 
-  padding: 100px 50px 25px;
+  padding: 50px 50px 25px;
   height: 100%;
   line-height: 24px;
   min-height: 100%;
-  margin: 0px;
+  margin: 0px auto;
+  max-width: 640px;
 }
 
 h1 {
